@@ -26,15 +26,16 @@
   <ul class="navbar-nav">
       <a class="navbar-brand" href="#">The Beautiful Game</a>
     <li class="nav-item">
-      <a class="nav-link" href="#">home</a>
+      <a class="nav-link" href="{$href}">{$Menu0}</a>
     </li>
+
   </ul>
   <ul class="navbar-nav ml-auto">
     <li class="nav-item">
-      <a class="nav-link" href="#">login</a>
+      <a class="nav-link" href="#">{$Menu1}</a>
     </li>
     <li class="nav-item active">
-      <a class="nav-link" href="#">register</a>
+      <a class="nav-link" href="#">{$Menu2}</a>
     </li>
   </ul>
 </nav>
