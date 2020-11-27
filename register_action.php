@@ -1,26 +1,22 @@
 <?php
 include 'db.php';
-/**********************************************
-                    Control
-***********************************************/
+
 $db = dbconnect($hostname,$db_name,$db_user,$db_passwd);
 $Error = null;
 if($db && !empty($_REQUEST))
   $Error = statement($db);
 
-mysql_close($db);
+mysqli_close($db);
 
 if($Error == 1)
   redirect("",$_REQUEST['Username'],$Error);
 elseif($Error == 2)
   redirect("",$_REQUEST['Username'],$Error);
-elseif($Error == 5)
+elseif($Error == 4)
   redirect($_REQUEST['Email'],$_REQUEST['Username'],$Error);
 elseif($Error == -1) header("Location: register_success.php");
 elseif($Error == null) header("Location: index.php");
-/**********************************************
-                    Functions
-***********************************************/
+
 function statement($db) {
   $Email = $_REQUEST['Email'];
   $Username = $_REQUEST['Username'];
