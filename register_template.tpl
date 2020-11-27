@@ -48,7 +48,8 @@
     {/if}
 
 <!-- Sign Up-->
-<div class="card" style="margin-top:2%; margin-left:15%; margin-right:15%; border: none;">
+<form action= "register_action.php" method="POST">
+  <div class="card" style="margin-top:2%; margin-left:15%; margin-right:15%; border: none;">
   <h2 class="text-center"> Register</h2>
     <div class="form-group">
       <label for="name">Name:</label>
@@ -68,10 +69,11 @@
   </div>
   <div class="form-group container" style="text-align: center;">
    <a href="register_action.php" class="btn btn-success btn-success" role="button" type="submit">
-    <form action= "register_action.php" method="POST"><i class="fa fa-check"></i> &nbsp;Confirm</a></form>
+    <i class="fa fa-check"></i> &nbsp;Confirm</a>
     
    <a href="#" class="btn btn-success btn-danger" role="button"><i class="fa fa-trash"></i> &nbsp;Clear</a>
   </div>
 </div>
+</form>
 </body>
 </html>
