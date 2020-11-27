@@ -48,24 +48,25 @@
     {/if}
 
 <!-- Sign Up-->
-<form action= "register_action.php" method="POST">
+
   <div class="card" style="margin-top:2%; margin-left:15%; margin-right:15%; border: none;">
   <h2 class="text-center"> Register</h2>
+  <form action= "register_action.php" method="POST">
     <div class="form-group">
       <label for="name">Name:</label>
-      <input type="name" class="form-control" placeholder="Enter name" id="name">
+      <input type="name" class="form-control" placeholder="Enter name" id="name" value="{Name}" required>
     </div>
     <div class="form-group">
       <label for="email">Email:</label>
-      <input type="email" class="form-control" placeholder="Enter email" id="email">
+      <input type="email" class="form-control" placeholder="Enter email" id="email" value="{Email}" required>
     </div>
   <div class="form-group">
     <label for="pwd">Password:</label>
-    <input type="password" class="form-control" placeholder="Enter password" id="pwd">
+    <input type="password" class="form-control" placeholder="Enter password" id="pwd" value="{pwd}" required>
   </div>
   <div class="form-group">
     <label for="pwd_cf">Confirm Password:</label>
-    <input type="password" class="form-control" placeholder="Type again password" id="pwd_cf">
+    <input type="password" class="form-control" placeholder="Type again password" id="pwd_cf" value="{pwd_cf}" required>
   </div>
   <div class="form-group container" style="text-align: center;">
    <a href="#" class="btn btn-success btn-success" role="button" type="submit">
@@ -73,7 +74,7 @@
     
    <a href="#" class="btn btn-success btn-danger" role="button"><i class="fa fa-trash"></i> &nbsp;Clear</a>
   </div>
-</div>
 </form>
+</div>
 </body>
 </html>

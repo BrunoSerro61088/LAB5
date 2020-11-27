@@ -96,7 +96,7 @@ function smartyAssign($Menus,$Form_V,$smarty) {
   $smarty->assign('Error',$Form_V['ErrorTxt']);
 
   $smarty->assign('pwd',"");
-  $smarty->assign('cfmpwd',"");
+  $smarty->assign('pwd_cf',"");
   
 }
 
