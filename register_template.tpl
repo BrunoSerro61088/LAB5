@@ -40,6 +40,13 @@
   </ul>
 </nav>
 
+<!-- Error Message -->
+    {if $isError eq 1 }
+    <div class="alert alert-danger">
+      <p style="text-align: center">{$Error}</p>
+    </div>
+    {/if}
+
 <!-- Sign Up-->
 <div class="card" style="margin-top:2%; margin-left:15%; margin-right:15%; border: none;">
   <h2 class="text-center"> Register</h2>
