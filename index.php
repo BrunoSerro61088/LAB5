@@ -37,8 +37,8 @@ if($db) {
   $smarty->assign('Menu0',"home");
   $smarty->assign('Menu1',"logout");
   $smarty->assign('Menu2',"post");
-  $smarty->assign('href0',"post");
-  $smarty->assign('href1',"post");
+  $smarty->assign('href0',"index.php");
+  $smarty->assign('href1',"register.php");
   $smarty->assign('Welcome',"Welcome Bruno Serro");
 
   // Mostra a tabela
