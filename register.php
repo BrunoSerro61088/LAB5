@@ -45,8 +45,8 @@ $Form_V = array (
 
 
 $Form_V = checkREQUEST($Form_V);
-smartyAssign($Menus,$Form_V,$smarty);
-smartyDisplay($smarty);
+$smarty->assign($Menus,$Form_V,$smarty);
+$smarty->display($smarty);
 
 
 function checkREQUEST($Form_V) {
