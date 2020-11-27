@@ -12,12 +12,11 @@ require_once('/usr/share/php/smarty/libs/Smarty.class.php');
 
 //Array for menus
 $Menus = array (
-  "Menu0" => "Home",
-  "Menu1" => "SubForums",
-  "Menu2" => "Login",
+  "Menu0" => "home",
+  "Menu1" => "login",
+  "Menu2" => "register",
   "href0" => "index.php",
-  "href1" => "#",
-  "href2" => "#"
+  "href1" => "register.php",
 );
 
 //Array for form values

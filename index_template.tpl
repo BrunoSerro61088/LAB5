@@ -31,7 +31,7 @@
   <ul class="navbar-nav">
       <a class="navbar-brand" href="#">The Beautiful Game</a>
     <li class="nav-item active">
-      <a class="nav-link" href="#">{$Menu0}</a>
+      <a class="nav-link" href="{$href0}">{$Menu0}</a>
     </li>
   </ul>
   <ul class="navbar-nav ml-auto">
@@ -39,7 +39,7 @@
       <a class="nav-link" href="#">{$Menu1}</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">{$Menu2}</a>
+      <a class="nav-link" href="{$href1}">{$Menu2}</a>
     </li>
     <span class="navbar-text">
      {$Welcome}
