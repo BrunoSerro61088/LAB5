@@ -40,12 +40,7 @@
   </ul>
 </nav>
 
-<!-- Error Message -->
-    {if $isError eq 1 }
-    <div class="alert alert-danger">
-      <p style="text-align: center">{$Error}</p>
-    </div>
-    {/if}
+
 
 <!-- Sign Up-->
 
@@ -76,5 +71,11 @@
   </div>
 </form>
 </div>
+<!-- Error Message -->
+    {if $isError eq 1 }
+    <div class="alert alert-danger">
+      <p style="text-align: center">{$Error}</p>
+    </div>
+    {/if}
 </body>
 </html>
