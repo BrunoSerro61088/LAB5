@@ -14,7 +14,7 @@ elseif($Error == 2)
   redirect("",$_REQUEST['Username'],$Error);
 elseif($Error == 4)
   redirect($_REQUEST['Email'],$_REQUEST['Username'],$Error);
-elseif($Error == -1) header("Location: register_success.php");
+elseif($Error == -1) header("Location: register_success.html");
 elseif($Error == null) header("Location: index.php");
 
 function statement($db) {
