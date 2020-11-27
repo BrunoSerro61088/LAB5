@@ -35,11 +35,11 @@ if($db) {
   // faz a atribuição das variáveis do template smarty
   $smarty->assign('Post',$tuple);
   $smarty->assign('Menu0',"home");
-  $smarty->assign('Menu1',"logout");
-  $smarty->assign('Menu2',"post");
+  $smarty->assign('Menu1',"login");
+  $smarty->assign('Menu2',"register");
   $smarty->assign('href0',"index.php");
   $smarty->assign('href1',"register.php");
-  $smarty->assign('Welcome',"Welcome Bruno Serro");
+
 
   // Mostra a tabela
   $smarty->display('index_template.tpl');
