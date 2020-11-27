@@ -68,7 +68,7 @@
     <input type="password" class="form-control" placeholder="Type again password" id="pwd_cf">
   </div>
   <div class="form-group container" style="text-align: center;">
-   <a href="register_action.php" class="btn btn-success btn-success" role="button" type="submit">
+   <a href="#" class="btn btn-success btn-success" role="button" type="submit">
     <i class="fa fa-check"></i> &nbsp;Confirm</a>
     
    <a href="#" class="btn btn-success btn-danger" role="button"><i class="fa fa-trash"></i> &nbsp;Clear</a>
